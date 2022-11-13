@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <style>
 .btn1{
-width:2em;height:15em;
+width:3em;height:15em;
 border: dashed 1px #906e84;
 border-radius: 10px;
 cursor: pointer;
 background-color: #eee;
 }
 .btn2{
-width:5em; height:1em;
+width:8em; height:2em;
 border: dashed 1px #906e84;
 border-radius: 10px;
 cursor: pointer;
@@ -25,22 +25,33 @@ border-radius: 10px;
 cursor: pointer;
 background-color: #eee;
 }
+.example{
+writing-mode: vertical-rl;
+input:first-of-type;
+text-align: center;
+}
 </style>
 </head>
 <body>
-<h1>京都市バス現在位置</h1>
+<h1>京都市バス現在位置</h1><br>
 <h3>丸太町通り東行き</h3>
-<button class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=7243ac9c707969db00d6c6bc1b5ec7ea'"class="btn1">西ノ京円町</button>
-<button class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=855397f6067d25606c6eeaab770de4d9'">千本丸太町</button>
-<button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=7780786e5d2963b26e3998127df75f2c'">堀川丸太町</button>
-<button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=f496a098d7261d8748b03fdee72cbb03'">烏丸丸太町</button>
-<button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=75d94bdf15f500a4af6331e3519d428e'">河原町丸太町</button>
+<h5>-------------------------------></h5>
+<div class="example">
+<button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=75d94bdf15f500a4af6331e3519d428e'">河原町丸太町202<br>204<br>65<br>93<br></button><br>
+<button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=f496a098d7261d8748b03fdee72cbb03'">烏丸丸太町202<br>204<br>65<br>93<br></button><br>
+<button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=7780786e5d2963b26e3998127df75f2c'">堀川丸太町202<br>204<br>93<br></button><br>
+<button class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=855397f6067d25606c6eeaab770de4d9'">千本丸太町</button><br>
+<button class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=7243ac9c707969db00d6c6bc1b5ec7ea'"class="btn1">西ノ京円町</button><br>
+</div>
+<br>
 <h3>丸太町通り西行き</h3>
+<div class="example">
+<button 1 class=btn1 onclick="location.href=''">河原町丸太町</button><br>
+<button 1 class=btn1 onclick="location.href=''">烏丸丸太町</button><br>
+<button 1 class=btn1 onclick="location.href=''">堀川丸太町</button><br>
+<button 1 class=btn1 onclick="location.href=''">千本丸太町</button><br>
 <button 1 class=btn1 onclick="location.href=''">西ノ京円町</button>
-<button 1 class=btn1 onclick="location.href=''">千本丸太町</button>
-<button 1 class=btn1 onclick="location.href=''">堀川丸太町</button>
-<button 1 class=btn1 onclick="location.href=''">烏丸丸太町</button>
-<button 1 class=btn1 onclick="location.href=''">河原町丸太町</button>
+</div>
 <h3>河原町通り北行き</h3>
 <h3>205系統</h3>
 <button 1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=4e5cd90384f569142bc6f4ff40e7e1ba'">東寺道</button>
@@ -51,27 +62,11 @@ background-color: #eee;
 <button 2 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=b0bbaa8e378f9d9a62aebbfb752b7a90'">河原町正面</button>
 <button 2 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=dc1c6898d1b9f009f6108a6dd3cfcbc2'">河原町五条</button>
 河原町松原
-<p></p>
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
-<input class="btn2" type="button" onclick="location.href=''" value="">
 
 
 
-<p></p>
+
+
 <button 2 onclick="location.href=''">四条河原町</button>
 <button 2 onclick="location.href=''">河原町三条</button>
 <button 2 onclick="location.href=''">京都市役所前</button>
@@ -85,27 +80,45 @@ background-color: #eee;
 <p><button 2 onclick="location.href=''">下賀茂神社前</button></p>
 <p><button 2 onclick="location.href=''">一本松</button></p>
 
+
+<div class="example">
+
+<button class="btn3" onclick="location.href=''">洛北高校前</button><br>
+<button class="btn1" onclick="location.href=''">府立大学前</button><br>
+<button class="btn1" onclick="location.href=''">植物園前</button><br>
+<button class="btn1" onclick="location.href=''">烏丸北大路</button><br>
+<button class="btn1" onclick="location.href=''">北大路バスターミナル</button><br>
+<button class="btn1" onclick="location.href=''">北大路新町</button><br>
+<button class="btn1" onclick="location.href=''">北大路堀川</button><br>
+<button class="btn1" onclick="location.href=''">建勲神社前</button><br>
+<button class="btn1" onclick="location.href=''">船岡山</button><br>
+<button class="btn1" onclick="location.href=''">千本北大路</button><br>
 <button class="btn3" onclick="location.href=''">金閣寺道</button>
-<button class="btn1" onclick="location.href=''">千本北大路</button>
-<button class="btn1" onclick="location.href=''">船岡山</button>
-<button class="btn1" onclick="location.href=''">建勲神社前</button>
-<button class="btn1" onclick="location.href=''">北大路堀川</button>
-<button class="btn1" onclick="location.href=''">北大路新町</button>
-<button class="btn1" onclick="location.href=''">北大路バスターミナル</button>
-<button class="btn1" onclick="location.href=''">烏丸北大路</button>
+</p>
+</div>
+<button class="btn2" onclick="location.href=''">わら天神前</button><br>
+<button class="btn2" onclick="location.href=''">衣笠校前</button><br>
+<button class="btn2" onclick="location.href=''">北野白梅町</button><br>
+<button class="btn2" onclick="location.href=''">大将軍</button><br>
+<button class="btn2" onclick="location.href=''">北野中学前</button><br>
+<button class="btn2" onclick="location.href=''">西ノ京円町</button><br>
+<button class="btn2" onclick="location.href=''">太子道</button><br>
+<button class="btn2" onclick="location.href=''">西大路御池</button><br>
+<button class="btn2" onclick="location.href=''">西大路三条</button><br>
+<button class="btn2" onclick="location.href=''">西大路四条</button><br>
+<button class="btn2" onclick="location.href=''">西大路松原</button><br>
+<button class="btn2" onclick="location.href=''">西大路五条</button><br>
+<button class="btn2" onclick="location.href=''">西大路花屋町</button><br>
 
-<button class="btn1" onclick="location.href=''">植物園前</button>
-<button class="btn1" onclick="location.href=''">府立大学前</button>
-<button class="btn3" onclick="location.href=''">洛北高校前</button>
+<button class="btn3" onclick="location.href=''">西大路七条</button>
 
-
-
-
-<button 2 onclick="location.href=''">わら天神前</button>
-<button 2 onclick="location.href=''">衣笠校前</button>
-<button 2 onclick="location.href=''">北野白梅町</button>
-
-
-
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
+<button class="btn2" onclick="location.href=''"></button><br>
 </body>
 </html>
