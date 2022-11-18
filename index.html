@@ -55,6 +55,9 @@ vertical-align: middle;
 .example2{writing-mode: vertical-rl;
 }
 .number{-webkit-text-combine: horizontal;
+  -moz-text-combine-upright: all;
+  -ms-text-combine-horizontal:all;
+  text-combine-upright: all;
 }
 .main{width: 100%;
 float: left;
@@ -417,7 +420,7 @@ white-space: nowrap;
 <button class=btn1 onclick="location.href=''"></button><br>
 ↑<br>
 <button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=75d94bdf15f500a4af6331e3519d428e'">
-  <span class="example2">河原町丸太町<span class="number">202</span><span class="number">204</span><span class="number>65</span><span class="number">93</span></span></button><br>
+  <span class="example2">河原町丸太町<span class="number">202</span><span class="number">204</span><span class="number">65</span><span class="number">93</span></span></button><br>
 ↑<br>
 <button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=f496a098d7261d8748b03fdee72cbb03'">
     <span class="example2">烏丸丸太町<span class="number">202</span><span class="number">204</span><span class="number">10</span><span class="number">65</span><span class="number">93</span></span></button><br>
@@ -425,9 +428,11 @@ white-space: nowrap;
 <button 1 class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=7780786e5d2963b26e3998127df75f2c'">
     <span class="example2">堀川丸太町<span class="suuji1"><span class="number">202</span><span class="number">204</span><span class="number">10</span><span class="number">93</span></span></button><br>
 ↑<br>
-<button class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=855397f6067d25606c6eeaab770de4d9'"><span class="example2">千本丸太町<span class="suuji1"><span class="number">202</span><span class="number">204</span><span class="number">10</span><span class="number">93</span></span></button><br></button><br>
+<button class=btn1 onclick="location.href='http://blsetup.city.kyoto.jp/blsp/show.php?sid=855397f6067d25606c6eeaab770de4d9'">
+  <span class="example2">千本丸太町<span class="suuji1"><span class="number">202</span><span class="number">204</span><span class="number">10</span><span class="number">93</span></span></button><br></button><br>
 ↑<br>
-<button class=btn1 onclick="location.href=''"><span class="example2">西ノ京円町<span class="suuji1"><span class="number">202</span><span class="number">204</span><span class="number">15</span><span class="number">93</span></span></button><br></button><br>
+<button class=btn1 onclick="location.href=''">
+  <span class="example2">西ノ京円町<span class="suuji1"><span class="number">202</span><span class="number">204</span><span class="number">15</span><span class="number">93</span></span></button><br></button><br>
 ↑<br>
 <button class=btn1 onclick="location.href=''"></button><br>
 ↑<br>
