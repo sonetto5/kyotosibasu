@@ -10,7 +10,7 @@ border: dashed 1px #906e84;
 border-radius: 10px;
 cursor: pointer;
 background-color: #eee;
-
+writing-mode: vertical-rl;
 }
 .btn2{
 width:8em; height:3em;
@@ -150,6 +150,16 @@ li.item {
 	color: #000000;
 	background-color: #A1D8E6;
 }
+	section{
+  max-width: 600px;
+  height: 200px;
+  padding: 20px;
+  margin: auto;
+  border: 2px solid #000;
+  
+  /* 横にはみ出した要素をスクロールするプロパティ */
+  overflow-x: scroll;
+	}
 </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -169,6 +179,10 @@ li.item {
   <a href="#i2">2.主要系統別</a><br>
   <a href="#b1">2-1.循環系統</a><br>
   
+	<section><p><button class=btn1 onclick="location.href=''">河原町丸太町</button></p>
+		<p><button class=btn1 onclick="location.href=''">裁判所</button></p>
+		<button class=btn1 onclick="location.href=''">烏丸</button></section>
+	
   <h2 id="i1">主要通り別</h2>
   <h2 id="a1">南北の通り</h2>
     <h3>
